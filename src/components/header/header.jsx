@@ -4,13 +4,11 @@ const Header = () => {
     return (
         <section className='header-section container'>
             <nav>
-                <div className='header-logo'>D<span>Z</span></div>
-
+                <div className='header-logo'><span >D</span><span className='primary-color'>Z</span></div>
                 <div className='header-link'>
                     <a href='#about'>ABOUT</a>
                     <a href='#articles'>ARTICLES</a>
                 </div>
-
                 <div className='header-subscribe'>
                     <button className='subscribe-btn'>SUBSCRIBE</button>
                 </div>

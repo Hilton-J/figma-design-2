@@ -13,10 +13,6 @@ nav {
   height: 10%;
 }
 
-span {
-  color: var(--color-secondary);
-}
-
 .header-section h2::after {
   content: "";
   display: block;
@@ -40,4 +36,8 @@ span {
   justify-content: center;
   align-items: center;
   height: 90%;
+}
+
+.primary-color {
+  color: var(--color-secondary);
 }
