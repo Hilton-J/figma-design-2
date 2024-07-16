@@ -1,3 +1,43 @@
 .header-section {
   background-image: url("../../assets/hero.jpeg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  align-items: center;
+  height: 10%;
+}
+
+span {
+  color: var(--color-secondary);
+}
+
+.header-section h2::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 4rem;
+  background-color: var(--color-primary);
+  transform: rotate(90deg);
+  margin: 10px auto 0;
+}
+
+.header-link {
+  margin-left: 5rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
 }

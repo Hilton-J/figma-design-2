@@ -1,12 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  font-family: Inter;
-  line-height: 1.1;
-  font-weight: 300;
-
-  color-scheme: light dark;
-  color: black;
-  background-color: #f8f8f8;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,6 +22,10 @@
   --color-primary: #000000;
   --color-secondary: #cbdeec;
   --color-backdrop: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .container {
@@ -38,6 +49,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: Inter;
+  line-height: 1.1;
+  font-weight: 300;
+  width: 100%;
+  color: black;
+  background-color: #f8f8f8;
 }
 
 h1 {
@@ -46,19 +63,20 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid black;
+  border-radius: 0;
+  border: 1px solid var(--color-primary);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
-  border-color: black;
+  background: var(--color-secondary);
+  border: none;
 }
 button:focus,
 button:focus-visible {
@@ -72,8 +90,5 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
