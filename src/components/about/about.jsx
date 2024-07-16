@@ -4,7 +4,6 @@ const About = () => {
     return (
         <section id='about' className='about-section container'>
             <section className='about-image'>
-                {/* <img src={Drone6} alt='Drone' /> */}
             </section>
             <section className='about-text'>
                 <h2>ABOUT US</h2>

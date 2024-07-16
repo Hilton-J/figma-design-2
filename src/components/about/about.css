@@ -1,3 +1,35 @@
+.about-section {
+  display: flex;
+}
+
 .about-image {
+  width: 50%;
   background-image: url("../../assets/drone8.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+  height: 100%;
+}
+
+.about-text p {
+  text-align: justify;
+}
+
+.about-text h2::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 4rem;
+  background-color: var(--color-primary);
+  transform: rotate(90deg);
+  margin: 10px auto 0;
 }
