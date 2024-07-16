@@ -1,7 +1,12 @@
 .articles-section {
-  padding: 10% 10% 15% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.articles-wrap {
+  width: 80%;
+}
 .articles-section h2::after {
   content: "";
   display: block;
@@ -16,8 +21,8 @@
   height: 30%;
 }
 
-.card-articles {
-  height: 70%;
+.cards {
+  width: 22.5%;
 }
 
 .card-articles {
@@ -25,12 +30,30 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  flex: 1;
-  gap: 2%;
 }
 
+.card-image {
+  height: 225px;
+}
 .cards img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.bar {
+  width: 100px;
+  height: 6px;
+  background: var(--color-primary);
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
