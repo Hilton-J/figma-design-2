@@ -1,0 +1,35 @@
+.articles-section {
+  padding: 20%;
+}
+
+.articles-section h2::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 5rem;
+  background-color: var(--color-primary);
+  transform: rotate(90deg);
+  margin: 10px auto 0;
+}
+
+.header-articles {
+  height: 20%;
+}
+
+.card-articles {
+  height: 80%;
+}
+
+.card-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+}
+
+.cards img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
