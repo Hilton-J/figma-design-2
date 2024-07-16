@@ -1,0 +1,27 @@
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+}
+
+.socials-footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
+  width: 50%;
+  gap: 2rem;
+}
+
+.socials-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 55px;
+  margin-right: 2%;
+}
+.socials-footer a {
+  color: var(--color-secondary);
+}

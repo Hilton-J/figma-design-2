@@ -1,5 +1,6 @@
 .about-section {
   display: flex;
+  background: white;
 }
 
 .about-image {
