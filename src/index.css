@@ -31,7 +31,7 @@ html {
 }
 
 .container {
-  height: 100vh;
+  height: 751px;
 }
 
 a {
@@ -98,5 +98,21 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES (MOBILE PHONES)) ================================ */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
   }
 }
