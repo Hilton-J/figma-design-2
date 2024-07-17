@@ -41,6 +41,7 @@ nav {
   justify-content: center;
   gap: 2em;
 }
+
 .header-text {
   display: flex;
   flex-direction: column;
