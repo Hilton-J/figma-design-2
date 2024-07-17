@@ -13,9 +13,11 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='header-subscribe'>
-                        <a href='#subscribe'>
-                            <button className='subscribe-btn'>SUBSCRIBE</button>
-                        </a>
+                        <div>
+                            <a href='#subscribe'>
+                                <button className='subscribe-btn'>SUBSCRIBE</button>
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </section>
