@@ -4,13 +4,19 @@
   background-position: fixed;
   background-size: cover;
 }
+.nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px 0 20px;
   align-items: center;
-  height: 10%;
+  height: inherit;
+  width: 90%;
 }
 
 .header-section h2::after {
@@ -40,4 +46,8 @@ nav {
 
 .primary-color {
   color: var(--color-secondary);
+}
+
+.header-logo {
+  font-size: 32px;
 }

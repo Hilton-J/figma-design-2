@@ -1,11 +1,9 @@
 .subscribe-section {
-  padding: 5% 25% 10% 25%;
-}
-
-.subscribe-section {
   display: flex;
   flex-direction: column;
-  /* width: ; */
+  height: 374px;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-section h2,
@@ -14,13 +12,16 @@ p {
 }
 
 .subscribe-section input[type="email"] {
-  padding: 20px;
   margin-bottom: 10px;
+  height: 53px;
+  padding-left: 10px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
 
-  /* font-size: 16px;
-  background-color: white;
-  border-radius: 4px;
-  width: 100%;
-  height: 67px;
-  margin-bottom: 10px; */
+.subscribe-display {
+  width: 32%;
+  height: 68%;
 }
