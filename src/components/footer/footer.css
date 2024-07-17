@@ -2,26 +2,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 150px;
   background-color: white;
 }
 
 .socials-footer {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   margin-left: 2%;
   width: 50%;
   gap: 2rem;
+  height: 100%;
 }
 
 .socials-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 50%;
-  height: 55px;
+  height: 100%;
   margin-right: 2%;
+  gap: 6em;
 }
+
 .socials-footer a {
   color: var(--color-secondary);
+  font-size: 32px;
 }

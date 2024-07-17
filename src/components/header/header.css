@@ -1,9 +1,9 @@
 .header-section {
   background-image: url("../../assets/hero.jpeg");
   background-repeat: no-repeat;
-  background-position: fixed;
   background-size: cover;
 }
+
 .nav-section {
   display: flex;
   justify-content: center;
@@ -15,8 +15,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: inherit;
   width: 90%;
+  height: 80%;
 }
 
 .header-section h2::after {
@@ -30,12 +30,17 @@ nav {
 }
 
 .header-link {
-  margin-left: 5rem;
   display: flex;
-  gap: 5rem;
   justify-content: center;
+  width: 20%;
 }
 
+.link {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
 .header-text {
   display: flex;
   flex-direction: column;
