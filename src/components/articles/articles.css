@@ -4,9 +4,16 @@
   justify-content: center;
   align-items: center;
 }
+
 .articles-wrap {
   width: 80%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
+
 .articles-section h2::after {
   content: "";
   display: block;
@@ -18,5 +25,5 @@
 }
 
 .header-articles {
-  height: 30%;
+  height: 20%;
 }
