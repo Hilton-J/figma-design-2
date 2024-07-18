@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
+  padding: 140px 0 140px 0;
 }
 
 .articles-section h2::after {
@@ -25,5 +26,6 @@
 }
 
 .header-articles {
-  height: 20%;
+  height: 14%;
+  margin: 0 0 5% 0;
 }
