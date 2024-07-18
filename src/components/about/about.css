@@ -1,6 +1,7 @@
 .about-section {
   display: flex;
   background: white;
+  height: 100vh;
 }
 
 .about-wrap {

@@ -2,7 +2,7 @@ import './header.css'
 
 const Header = () => {
     return (
-        <section className='header-section container'>
+        <section className='header-section'>
             <section className='nav-section'>
                 <nav>
                     <div className='header-logo'><span >D</span><span className='primary-color'>Z</span></div>

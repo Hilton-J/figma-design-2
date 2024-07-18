@@ -30,10 +30,6 @@ html {
   display: none;
 }
 
-.container {
-  height: 100%;
-}
-
 .wrap {
   width: 80%;
   height: inherit;
@@ -77,7 +73,7 @@ body {
   font-weight: 300;
   width: 100%;
   color: black;
-  background-color: #f8f8f8;
+  background-color: var(--color-backdrop);
 }
 
 button {
