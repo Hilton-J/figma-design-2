@@ -31,7 +31,17 @@ html {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
+}
+
+.wrap {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 140px 0 140px 0;
 }
 
 a {

@@ -6,16 +6,6 @@
   height: fit-content;
 }
 
-.articles-wrap {
-  width: 80%;
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-  padding: 140px 0 140px 0;
-}
-
 .articles-section h2::after {
   content: "";
   display: block;

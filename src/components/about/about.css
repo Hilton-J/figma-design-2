@@ -3,6 +3,13 @@
   background: white;
 }
 
+.about-wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .about-image {
   width: 50%;
   background-image: url("../../assets/drone8.png");
