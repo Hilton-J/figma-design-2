@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .nav-section {
@@ -18,7 +17,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  width: 94%;
+  width: 95%;
 }
 
 .header-section h2::after {
@@ -58,6 +57,10 @@ nav {
   text-align: right;
 }
 
-.header-subscribe > a:hover {
+.header-subscribe > button > a {
+  font-size: 1em;
+}
+
+.header-subscribe > button > a:hover {
   color: black;
 }

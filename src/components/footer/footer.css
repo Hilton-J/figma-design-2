@@ -1,18 +1,25 @@
 .footer-section {
+  height: 150px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
-  background-color: white;
+}
+
+.footer-section > div {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  width: 95%;
 }
 
 .socials-footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 2%;
-  width: 50%;
-  gap: 2rem;
+  gap: 4em;
   height: 100%;
 }
 
@@ -20,13 +27,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 50%;
   height: 100%;
-  margin-right: 2%;
   gap: 6em;
 }
 
 .socials-footer a {
   color: var(--color-secondary);
-  font-size: 32px;
+  font-size: 3em;
 }

@@ -15,7 +15,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='header-subscribe'>
-                        <button type='button' className='subscribe-btn'>SUBSCRIBE</button>
+                        <button type='button' className='subscribe-btn' href="#subscribe"><a href="#subscribe">SUBSCRIBE</a></button>
                     </div>
                 </nav>
             </section>
