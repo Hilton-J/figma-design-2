@@ -1,8 +1,10 @@
 .header-section {
   background-image: url("../../assets/hero.jpeg");
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .nav-section {
@@ -13,11 +15,10 @@
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   width: 94%;
-  height: 50%;
 }
 
 .header-section h2::after {
@@ -30,17 +31,10 @@ nav {
   margin: 10px auto 0;
 }
 
-.header-link {
+.header-link > ul {
   display: flex;
   justify-content: center;
-  width: 20%;
-}
-
-.link {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
+  gap: 67px;
 }
 
 .header-text {
@@ -57,19 +51,13 @@ nav {
 
 .header-logo {
   font-size: 32px;
+  text-align: left;
 }
 
 .header-subscribe {
-  height: 100%;
-}
-.header-subscribe button {
-  height: 90%;
-  padding: 0 0.8em 0 0.8em;
+  text-align: right;
 }
 
-.header-subscribe div,
-a {
-  height: 100%;
-  display: flex;
-  align-items: center;
+.header-subscribe > a:hover {
+  color: black;
 }

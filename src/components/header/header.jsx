@@ -5,19 +5,17 @@ const Header = () => {
         <section className='header-section'>
             <section className='nav-section'>
                 <nav>
-                    <div className='header-logo'><span >D</span><span className='primary-color'>Z</span></div>
+                    <div className='header-logo'>
+                        <span >D</span><span className='primary-color'>Z</span>
+                    </div>
                     <div className='header-link'>
-                        <div className='link'>
-                            <a href='#about'>ABOUT</a>
-                            <a href='#articles'>ARTICLES</a>
-                        </div>
+                        <ul>
+                            <li><a href='#about'>ABOUT</a></li>
+                            <li><a href='#articles'>ARTICLES</a></li>
+                        </ul>
                     </div>
                     <div className='header-subscribe'>
-                        <div>
-                            <a href='#subscribe'>
-                                <button className='subscribe-btn'>SUBSCRIBE</button>
-                            </a>
-                        </div>
+                        <button type='button' className='subscribe-btn'>SUBSCRIBE</button>
                     </div>
                 </nav>
             </section>
