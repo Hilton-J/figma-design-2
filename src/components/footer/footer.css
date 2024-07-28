@@ -2,7 +2,7 @@
   height: 150px;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -21,6 +21,13 @@
   align-items: center;
   gap: 4em;
   height: 100%;
+}
+
+.socials-footer > a:hover {
+  background: var(--color-secondary);
+  color: white;
+  border-radius: 50%;
+  height: fit-content;
 }
 
 .socials-btn {

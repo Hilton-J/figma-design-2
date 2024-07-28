@@ -8,39 +8,31 @@ const cards = () => {
     return (
         <div className='card-articles'>
 
-            <div className='cards'>
+            <article className='cards'>
                 <div className='card-image'>
                     <img src={Drone1} alt='Drone1' />
                 </div>
-                <div className='card-text'>
-                    <div className='bar'></div>
-                    <div className='dparagraph'><p>How to automate surveillance drones</p></div>
-                </div>
-            </div>
+                <div className='bar'></div>
+                <div className='dparagraph'><p>How to automate surveillance drones</p></div>
+            </article>
 
-            <div className='cards'>
+            <article className='cards'>
                 <div className='card-image'><img src={Drone2} alt='Drone2' /></div>
-                <div className='card-text'>
-                    <div className='bar'></div>
-                    <div className='dparagraph'><p>Robotics and artificial Intelligence</p></div>
-                </div>
-            </div>
+                <div className='bar'></div>
+                <div className='dparagraph'><p>Robotics and artificial Intelligence</p></div>
+            </article>
 
-            <div className='cards'>
+            <article className='cards'>
                 <div className='card-image'><img src={Drone4} alt='Drone6' /></div>
-                <div className='card-text'>
-                    <div className='bar'></div>
-                    <div className='dparagraph'><p>Improving Lives through Robotics Prosthetics</p></div>
-                </div>
-            </div>
+                <div className='bar'></div>
+                <div className='dparagraph'><p>Improving Lives through Robotics Prosthetics</p></div>
+            </article>
 
-            <div className='cards'>
+            <article className='cards'>
                 <div className='card-image'><img src={Drone6} alt='Drone4' /></div>
-                <div className='card-text'>
-                    <div className='bar'></div>
-                    <div className='dparagraph'><p>Power of Robotics in Agriculture</p></div>
-                </div>
-            </div>
+                <div className='bar'></div>
+                <div className='dparagraph'><p>Power of Robotics in Agriculture</p></div>
+            </article>
         </div>
     )
 }

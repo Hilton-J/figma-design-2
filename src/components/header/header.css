@@ -20,16 +20,6 @@ nav {
   width: 95%;
 }
 
-.header-section h2::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 4rem;
-  background-color: var(--color-primary);
-  transform: rotate(90deg);
-  margin: 10px auto 0;
-}
-
 .header-link > ul {
   display: flex;
   justify-content: center;

@@ -22,6 +22,7 @@ const Header = () => {
             <section className='header-text'>
                 <h1>DRONOTICZ</h1>
                 <h2>THE ERA OF DRONES</h2>
+                <div className='bar'></div>
             </section>
         </section>
     )

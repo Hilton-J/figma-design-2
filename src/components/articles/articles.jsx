@@ -8,6 +8,7 @@ const Articles = () => {
             <div className='wrap'>
                 <div className='header-articles'>
                     <h2>LATEST ARTICLES</h2>
+                    <div className='bar'></div>
                 </div>
                 <Cards />
             </div>
