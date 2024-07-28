@@ -4,7 +4,6 @@
 
 .cards {
   margin: 7px;
-  min-width: 259px;
   background: white;
   box-shadow: 0 0 27px rgba(1, 1, 1, 0.1);
 }
