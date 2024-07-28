@@ -5,7 +5,6 @@
 }
 
 .about-wrap {
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -26,8 +25,9 @@
   align-items: center;
 }
 
-.about-text p {
+.about-text > p {
   text-align: justify;
-  width: 62%;
+  /* width: 62%; */
   margin-top: 6em;
+  padding: 0 21%;
 }

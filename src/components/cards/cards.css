@@ -1,11 +1,7 @@
-.dparagraph {
-  padding: 50px 40px;
-}
-
-.cards {
-  margin: 7px;
-  background: white;
-  box-shadow: 0 0 27px rgba(1, 1, 1, 0.1);
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .card-articles {
@@ -14,14 +10,16 @@
   justify-items: center;
 }
 
+.cards {
+  width: 300px;
+  margin: 7px;
+  background: white;
+  box-shadow: 0 0 27px rgba(1, 1, 1, 0.1);
+}
+
 .card-image {
   height: 200px;
   margin-bottom: 1em;
-}
-
-.cards .bar {
-  width: 3.5rem;
-  height: 3px;
 }
 
 .cards img {
@@ -31,13 +29,29 @@
   height: 100%;
 }
 
-.card-text {
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
-  justify-content: center;
-  align-items: center;
+.cards .bar {
+  width: 3.5rem;
+  height: 3px;
+}
 
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.dparagraph {
+  padding: 50px 40px;
+}
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES (TABLETS)) ================================ */
+@media screen and (max-width: 1024px) {
+  .card-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES (MOBILE PHONES)) ================================ */
+@media screen and (max-width: 600px) {
+  .card-articles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrap {
+    padding: 5em 0;
+  }
 }
