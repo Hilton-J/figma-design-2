@@ -5,18 +5,22 @@ const Header = () => {
         <section className='header-section'>
             <section className='nav-section'>
                 <nav>
+
                     <div className='header-logo'>
                         <span >D</span><span className='primary-color'>Z</span>
                     </div>
+
                     <div className='header-link'>
                         <ul>
                             <li><a href='#about'>ABOUT</a></li>
                             <li><a href='#articles'>ARTICLES</a></li>
                         </ul>
                     </div>
+
                     <div className='header-subscribe'>
                         <button type='button' className='subscribe-btn' href="#subscribe"><a href="#subscribe">SUBSCRIBE</a></button>
                     </div>
+
                 </nav>
             </section>
             <section className='header-text'>
